@@ -3,6 +3,19 @@
 
 using namespace std;
 
+bool readSettingsChoice(int& choice)
+{
+    if (cin >> choice)
+    {
+        return true;
+    }
+
+    cin.clear();
+    cin.ignore(1000, '\n');
+
+    return false;
+}
+
 void displaySettingsMenu()
 {
     cout << "\n========== SETTINGS ==========\n";
@@ -19,7 +32,12 @@ void showSettings()
     displaySettingsMenu();
 
     cout << "Enter your choice: ";
-    cin >> choice;
+
+    if (!readSettingsChoice(choice))
+    {
+        cout << "\nInvalid input. Please enter a number.\n";
+        return;
+    }
 
     switch (choice)
     {
