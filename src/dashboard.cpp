@@ -5,6 +5,19 @@
 
 using namespace std;
 
+bool readDashboardChoice(int& choice)
+{
+    if (cin >> choice)
+    {
+        return true;
+    }
+
+    cin.clear();
+    cin.ignore(1000, '\n');
+
+    return false;
+}
+
 void showAcademicInformation()
 {
     cout << "\n========== ACADEMIC INFORMATION ==========\n";
@@ -29,7 +42,12 @@ void showDashboard()
         cout << "4. Logout\n";
 
         cout << "Enter your choice: ";
-        cin >> choice;
+
+        if (!readDashboardChoice(choice))
+        {
+            cout << "\nInvalid input. Please enter a number.\n";
+            continue;
+        }
 
         switch (choice)
         {
