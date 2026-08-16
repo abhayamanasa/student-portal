@@ -81,7 +81,7 @@ The settings section allows students to manage application preferences. It provi
 
 ## Development Workflow
 
-Development is organized using Git branches so that individual features can be developed independently before being merged into the main branch.
+The project follows a structured Git workflow where feature development, testing, and integration are performed through dedicated branches.
 
 Feature branches are used for functionality such as:
 
