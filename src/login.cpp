@@ -4,6 +4,11 @@
 
 using namespace std;
 
+bool validateCredentials(const string& username, const string& password)
+{
+    return username == "student" && password == "1234";
+}
+
 bool login()
 {
     string username;
@@ -17,7 +22,7 @@ bool login()
     cout << "Password: ";
     cin >> password;
 
-    if (username == "student" && password == "1234")
+    if (validateCredentials(username, password))
     {
         cout << "\nLogin successful!\n";
         cout << "Welcome, " << username << "!\n";
