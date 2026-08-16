@@ -6,6 +6,7 @@
 std::string getStudentName();
 std::string getStudentId();
 std::string getDepartment();
+std::string getEmail();
 
 void displayProfileInformation();
 void showProfile();
