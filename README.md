@@ -65,3 +65,7 @@ After successful compilation, start the application from the terminal:
 ## Login
 
 The login feature provides a basic authentication flow for students. Users provide their credentials, which are validated before access to protected portal functionality is provided.
+
+## Student Profile
+
+The profile section is intended to provide students with access to their personal academic information. It also provides functionality for viewing and managing relevant profile details.
