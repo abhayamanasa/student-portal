@@ -4,21 +4,6 @@
 
 using namespace std;
 
-bool validateUsername(const string& username)
-{
-    return username == "student";
-}
-
-bool validatePassword(const string& password)
-{
-    return password == "1234";
-}
-
-bool validateCredentials(const string& username, const string& password)
-{
-    return validateUsername(username) && validatePassword(password);
-}
-
 bool login()
 {
     string username;
@@ -28,6 +13,12 @@ bool login()
 
     cout << "Username: ";
     cin >> username;
+
+    if (isInputEmpty(username))
+    {
+        cout << "\nUsername cannot be empty.\n";
+        return false;
+    }
 
     cout << "Password: ";
     cin >> password;
@@ -43,4 +34,24 @@ bool login()
     cout << "\nInvalid username or password.\n";
 
     return false;
+}
+
+bool validateUsername(const string& username)
+{
+    return username == "student";
+}
+
+bool validatePassword(const string& password)
+{
+    return password == "1234";
+}
+
+bool validateCredentials(const string& username, const string& password)
+{
+    return validateUsername(username) && validatePassword(password);
+}
+
+bool isInputEmpty(const string& input)
+{
+    return input.empty();
 }
