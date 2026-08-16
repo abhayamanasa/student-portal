@@ -5,6 +5,7 @@
 
 std::string getStudentName();
 std::string getStudentId();
+std::string getDepartment();
 
 void displayProfileInformation();
 void showProfile();
