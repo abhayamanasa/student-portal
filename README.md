@@ -54,3 +54,10 @@ For a simple project containing a main source file, the application can be compi
 
 ```bash
 g++ src/main.cpp -o student-portal
+
+## Running the Application
+
+After successful compilation, start the application from the terminal:
+
+```bash
+./student-portal
