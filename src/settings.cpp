@@ -3,15 +3,20 @@
 
 using namespace std;
 
-void showSettings()
+void displaySettingsMenu()
 {
-    int choice;
-
     cout << "\n========== SETTINGS ==========\n";
 
     cout << "1. Change Password\n";
     cout << "2. Notification Preferences\n";
     cout << "3. Back\n";
+}
+
+void showSettings()
+{
+    int choice;
+
+    displaySettingsMenu();
 
     cout << "Enter your choice: ";
     cin >> choice;
