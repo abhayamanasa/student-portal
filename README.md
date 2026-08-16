@@ -81,7 +81,7 @@ The settings section allows students to manage application preferences. It provi
 
 ## Development Workflow
 
-The project follows a strict Git workflow with feature development and integration managed through dedicated branches.
+The project follows a structured Git workflow with dedicated branches for feature development, testing, and integration.
 
 Feature branches are used for functionality such as:
 
