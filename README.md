@@ -5,3 +5,13 @@ A simple student portal application designed to provide students with a centrali
 ## Project Purpose
 
 The Student Portal is intended to organize common student-related activities in a single application. It provides a structured foundation for authentication, profile management, dashboard access, and application preferences.
+
+## Features
+
+The application is planned around the following core features:
+
+- Student login and authentication
+- Student profile management
+- Academic dashboard
+- Application settings
+- Basic student information management
