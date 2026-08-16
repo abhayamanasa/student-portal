@@ -68,6 +68,7 @@ void showDashboard()
 
             case 4:
                 cout << "\nLogging out...\n";
+                cout << "Your dashboard session has ended.\n";
                 break;
 
             default:
