@@ -3,6 +3,11 @@
 
 using namespace std;
 
+void returnToDashboard()
+{
+    cout << "\nReturning to dashboard...\n";
+}
+
 void showNotificationPreferences()
 {
     cout << "\nNotification preferences selected.\n";
@@ -62,7 +67,7 @@ void showSettings()
             break;
 
         case 3:
-            cout << "\nReturning to dashboard...\n";
+            returnToDashboard();
             break;
 
         default:
