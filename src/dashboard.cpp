@@ -72,7 +72,8 @@ void showDashboard()
                 break;
 
             default:
-                cout << "\nInvalid choice. Please try again.\n";
+                cout << "\nInvalid dashboard option.\n";
+                cout << "Please select an option from 1 to 4.\n";
         }
 
     } while (choice != 4);
