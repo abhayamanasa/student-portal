@@ -37,3 +37,11 @@ Recommended tools include:
 - Git
 - Visual Studio Code
 - A Linux environment such as Ubuntu
+
+## Getting the Project
+
+Clone the repository using Git:
+
+```bash
+git clone https://github.com/abhayamanasa/student-portal.git
+cd student-portal
