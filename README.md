@@ -61,3 +61,7 @@ After successful compilation, start the application from the terminal:
 
 ```bash
 ./student-portal
+
+## Login
+
+The login feature provides a basic authentication flow for students. Users provide their credentials, which are validated before access to protected portal functionality is provided.
