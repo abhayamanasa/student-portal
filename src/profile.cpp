@@ -18,7 +18,7 @@ string getDepartment()
     return "Computer Science";
 }
 
-string getEmail()
+string getStudentEmail()
 {
     return "student@iiit.com";
 }
@@ -34,7 +34,7 @@ void displayProfileInformation()
     cout << "Student ID : " << getStudentId() << "\n";
     cout << "Department : " << getDepartment() << "\n";
     cout << "Year       : " << getAcademicYear() << "\n";
-    cout << "Email      : " << getEmail() << "\n";
+    cout << "Email      : " << getStudentEmail() << "\n";
 }
 
 void showProfile()
