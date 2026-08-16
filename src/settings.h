@@ -3,6 +3,7 @@
 
 bool readSettingsChoice(int& choice);
 
+void displaySettingsTitle();
 void displaySettingsMenu();
 void handlePasswordChange();
 void showNotificationPreferences();

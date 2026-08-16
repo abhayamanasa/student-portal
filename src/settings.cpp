@@ -33,9 +33,14 @@ bool readSettingsChoice(int& choice)
     return false;
 }
 
-void displaySettingsMenu()
+void displaySettingsTitle()
 {
     cout << "\n========== SETTINGS ==========\n";
+}
+
+void displaySettingsMenu()
+{
+    displaySettingsTitle();
 
     cout << "1. Change Password\n";
     cout << "2. Notification Preferences\n";
