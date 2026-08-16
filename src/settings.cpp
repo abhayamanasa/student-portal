@@ -6,6 +6,7 @@ using namespace std;
 void returnToDashboard()
 {
     cout << "\nReturning to dashboard...\n";
+    cout << "Settings menu closed successfully.\n";
 }
 
 void showNotificationPreferences()
