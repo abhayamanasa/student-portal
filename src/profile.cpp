@@ -23,12 +23,17 @@ string getEmail()
     return "student@iiit.com";
 }
 
+string getAcademicYear()
+{
+    return "I Year";
+}
+
 void displayProfileInformation()
 {
     cout << "Name       : " << getStudentName() << "\n";
     cout << "Student ID : " << getStudentId() << "\n";
     cout << "Department : " << getDepartment() << "\n";
-    cout << "Year       : I Year\n";
+    cout << "Year       : " << getAcademicYear() << "\n";
     cout << "Email      : " << getEmail() << "\n";
 }
 
