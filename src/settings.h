@@ -5,6 +5,7 @@ bool readSettingsChoice(int& choice);
 
 void displaySettingsMenu();
 void handlePasswordChange();
+void showNotificationPreferences();
 void showSettings();
 
 #endif

@@ -3,6 +3,12 @@
 
 using namespace std;
 
+void showNotificationPreferences()
+{
+    cout << "\nNotification preferences selected.\n";
+    cout << "Notifications are currently enabled.\n";
+}
+
 void handlePasswordChange()
 {
     cout << "\nPassword change option selected.\n";
@@ -52,8 +58,7 @@ void showSettings()
             break;
 
         case 2:
-            cout << "\nNotification preferences selected.\n";
-            cout << "Notifications are currently enabled.\n";
+            showNotificationPreferences();
             break;
 
         case 3:
