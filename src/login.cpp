@@ -9,9 +9,14 @@ bool validateUsername(const string& username)
     return username == "student";
 }
 
+bool validatePassword(const string& password)
+{
+    return password == "1234";
+}
+
 bool validateCredentials(const string& username, const string& password)
 {
-    return username == "student" && password == "1234";
+    return validateUsername(username) && validatePassword(password);
 }
 
 bool login()
