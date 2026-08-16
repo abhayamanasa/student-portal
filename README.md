@@ -15,3 +15,14 @@ The application is planned around the following core features:
 - Academic dashboard
 - Application settings
 - Basic student information management
+
+## Project Structure
+
+The project separates application source code, documentation, and configuration files to keep the repository organized.
+
+```text
+student-portal/
+├── src/
+├── docs/
+├── README.md
+└── .gitignore
