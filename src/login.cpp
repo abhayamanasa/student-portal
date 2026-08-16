@@ -4,6 +4,11 @@
 
 using namespace std;
 
+bool validateUsername(const string& username)
+{
+    return username == "student";
+}
+
 bool validateCredentials(const string& username, const string& password)
 {
     return username == "student" && password == "1234";
