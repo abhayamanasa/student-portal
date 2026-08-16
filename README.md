@@ -69,3 +69,7 @@ The login feature provides a basic authentication flow for students. Users provi
 ## Student Profile
 
 The profile section is intended to provide students with access to their personal academic information. It also provides functionality for viewing and managing relevant profile details.
+
+## Dashboard
+
+The dashboard provides a central view of important student information. It is designed to give users a convenient starting point for accessing academic and account-related functionality.
