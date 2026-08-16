@@ -11,7 +11,7 @@ void returnToDashboard()
 void showNotificationPreferences()
 {
     cout << "\nNotification preferences selected.\n";
-    cout << "Notifications are currently enabled.\n";
+    cout << "Notifications are currently enabled for your account.\n";
 }
 
 void handlePasswordChange()
