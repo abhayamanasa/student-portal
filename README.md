@@ -26,3 +26,14 @@ student-portal/
 ├── docs/
 ├── README.md
 └── .gitignore
+
+## Prerequisites
+
+The project requires a C++ development environment and Git for source-code management.
+
+Recommended tools include:
+
+- GCC or another C++ compiler
+- Git
+- Visual Studio Code
+- A Linux environment such as Ubuntu
