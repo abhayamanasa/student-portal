@@ -8,10 +8,15 @@ string getStudentName()
     return "Abhaya Manasa";
 }
 
+string getStudentId()
+{
+    return "2026202014";
+}
+
 void displayProfileInformation()
 {
     cout << "Name       : " << getStudentName() << "\n";
-    cout << "Student ID : 2026202014\n";
+    cout << "Student ID : " << getStudentId() << "\n";
     cout << "Department : Computer Science\n";
     cout << "Year       : I Year\n";
     cout << "Email      : student@iiit.com\n";

@@ -4,6 +4,7 @@
 #include <string>
 
 std::string getStudentName();
+std::string getStudentId();
 
 void displayProfileInformation();
 void showProfile();
