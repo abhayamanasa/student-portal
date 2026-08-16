@@ -32,8 +32,11 @@ void showDashboard()
 {
     int choice;
 
+    cout << "\nWelcome to your Student Dashboard!\n";
+
     do
     {
+        cout << "\n========== STUDENT DASHBOARD ==========\n";
         cout << "\n========== STUDENT DASHBOARD ==========\n";
 
         cout << "1. View Profile\n";
