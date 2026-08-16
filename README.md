@@ -88,3 +88,9 @@ Feature branches are used for functionality such as:
 - Profile
 - Dashboard
 - Settings
+
+## Contribution Guidelines
+
+Changes should be developed in focused feature branches and committed with descriptive messages. Each commit should represent a meaningful change to the project.
+
+Before merging changes into the main branch, the implementation should be reviewed and tested.
