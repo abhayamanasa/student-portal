@@ -3,6 +3,12 @@
 
 using namespace std;
 
+void handlePasswordChange()
+{
+    cout << "\nPassword change option selected.\n";
+    cout << "Password update functionality can be added later.\n";
+}
+
 bool readSettingsChoice(int& choice)
 {
     if (cin >> choice)
@@ -42,8 +48,7 @@ void showSettings()
     switch (choice)
     {
         case 1:
-            cout << "\nPassword change option selected.\n";
-            cout << "Password update functionality can be added later.\n";
+            handlePasswordChange();
             break;
 
         case 2:
