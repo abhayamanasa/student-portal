@@ -45,3 +45,12 @@ Clone the repository using Git:
 ```bash
 git clone https://github.com/abhayamanasa/student-portal.git
 cd student-portal
+
+## Building the Application
+
+After cloning the repository, compile the source files using a C++ compiler.
+
+For a simple project containing a main source file, the application can be compiled with:
+
+```bash
+g++ src/main.cpp -o student-portal
