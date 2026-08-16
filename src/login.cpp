@@ -21,9 +21,15 @@ bool login()
     }
 
     cout << "Password: ";
-    cin >> password;
+cin >> password;
 
-    if (validateCredentials(username, password))
+if (isInputEmpty(password))
+{
+    cout << "\nPassword cannot be empty.\n";
+    return false;
+}
+
+if (validateCredentials(username, password))
     {
         cout << "\nLogin successful!\n";
         cout << "Welcome, " << username << "!\n";
