@@ -5,6 +5,16 @@
 
 using namespace std;
 
+void showAcademicInformation()
+{
+    cout << "\n========== ACADEMIC INFORMATION ==========\n";
+    cout << "Course       : Computer Science\n";
+    cout << "Semester     : 1\n";
+    cout << "Attendance   : 94%\n";
+    cout << "CGPA         : 8.6\n";
+    cout << "==========================================\n";
+}
+
 void showDashboard()
 {
     int choice;
@@ -28,12 +38,7 @@ void showDashboard()
                 break;
 
             case 2:
-                cout << "\n========== ACADEMIC INFORMATION ==========\n";
-                cout << "Course       : Computer Science\n";
-                cout << "Semester     : 1\n";
-                cout << "Attendance   : 94%\n";
-                cout << "CGPA         : 8.6\n";
-                cout << "==========================================\n";
+                showAcademicInformation();
                 break;
 
             case 3:
