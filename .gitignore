@@ -1,0 +1,14 @@
+*.o
+*.out
+*.exe
+
+build/
+bin/
+
+.vscode/
+.idea/
+
+.DS_Store
+
+*.tmp
+*.swp
