@@ -20,12 +20,13 @@ The application is planned around the following core features:
 
 The project separates application source code, documentation, and configuration files to keep the repository organized.
 
-```text
+<!-- ```text -->
 student-portal/
 ├── src/
 ├── docs/
 ├── README.md
 └── .gitignore
+
 
 ## Prerequisites
 
@@ -42,7 +43,7 @@ Recommended tools include:
 
 Clone the repository using Git:
 
-```bash
+<!-- ```bash -->
 git clone https://github.com/abhayamanasa/student-portal.git
 cd student-portal
 
@@ -52,14 +53,14 @@ After cloning the repository, compile the source files using a C++ compiler.
 
 For a simple project containing a main source file, the application can be compiled with:
 
-```bash
+<!-- ```bash -->
 g++ src/main.cpp -o student-portal
 
 ## Running the Application
 
 After successful compilation, start the application from the terminal:
 
-```bash
+<!-- ```bash -->
 ./student-portal
 
 ## Login
@@ -99,7 +100,7 @@ Before merging changes into the main branch, the implementation should be review
 
 Some commonly used commands during development are:
 
-```bash
+<!-- ```bash -->
 git status
 git add .
 git commit
