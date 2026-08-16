@@ -94,3 +94,16 @@ Feature branches are used for functionality such as:
 Changes should be developed in focused feature branches and committed with descriptive messages. Each commit should represent a meaningful change to the project.
 
 Before merging changes into the main branch, the implementation should be reviewed and tested.
+
+## Useful Git Commands
+
+Some commonly used commands during development are:
+
+```bash
+git status
+git add .
+git commit
+git branch
+git switch
+git merge
+git log
