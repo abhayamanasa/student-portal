@@ -73,3 +73,7 @@ The profile section is intended to provide students with access to their persona
 ## Dashboard
 
 The dashboard provides a central view of important student information. It is designed to give users a convenient starting point for accessing academic and account-related functionality.
+
+## Settings
+
+The settings section allows students to manage application preferences. It provides a dedicated location for configurable options and user-specific preferences.
