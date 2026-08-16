@@ -5,6 +5,19 @@
 
 using namespace std;
 
+bool readDashboardChoice(int& choice)
+{
+    if (cin >> choice)
+    {
+        return true;
+    }
+
+    cin.clear();
+    cin.ignore(1000, '\n');
+
+    return false;
+}
+
 void showAcademicInformation()
 {
     cout << "\n========== ACADEMIC INFORMATION ==========\n";
@@ -19,8 +32,11 @@ void showDashboard()
 {
     int choice;
 
+    cout << "\nWelcome to your Student Dashboard!\n";
+
     do
     {
+        cout << "\n========== STUDENT DASHBOARD ==========\n";
         cout << "\n========== STUDENT DASHBOARD ==========\n";
 
         cout << "1. View Profile\n";
@@ -29,7 +45,12 @@ void showDashboard()
         cout << "4. Logout\n";
 
         cout << "Enter your choice: ";
-        cin >> choice;
+
+        if (!readDashboardChoice(choice))
+        {
+            cout << "\nInvalid input. Please enter a number.\n";
+            continue;
+        }
 
         switch (choice)
         {
@@ -47,10 +68,12 @@ void showDashboard()
 
             case 4:
                 cout << "\nLogging out...\n";
+                cout << "Your dashboard session has ended.\n";
                 break;
 
             default:
-                cout << "\nInvalid choice. Please try again.\n";
+                cout << "\nInvalid dashboard option.\n";
+                cout << "Please select an option from 1 to 4.\n";
         }
 
     } while (choice != 4);
